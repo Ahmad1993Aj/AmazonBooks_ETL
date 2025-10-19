@@ -1,0 +1,99 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+
+# pipenv
+Pipfile.lock
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Airflow
+logs/
+airflow.db
+*.log
+# Keep config/airflow.cfg in repo if it's project-specific; do not ignore config/airflow.cfg
+
+# Postgres / DB
+*.sqlite3
+*.db
+*.db-journal
+
+# Environment variables / secrets
+.env
+.env.*
+secrets.yaml
+
+# Docker
+docker-compose.override.yml
+.env.dev
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+
+# Editor temporary files
+*~
+*.swp
+*.swo
+
+# Others
+*.pem
+*.key
+
+# Ignore local IDE/run artifacts
+run/
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore macOS folder attributes
+.metadata
+
+# Local logs folder used by other tools
+local_logs/
+
+# Ignore any IntelliJ project workspace
+
+# Lockfiles
+poetry.lock
